@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bài tập7</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    let inputa;
+    let inputb;
+    inputa = prompt("Nhập số phút gọi nội mạng tháng này: ");
+    inputb = prompt("Nhập số phút gọi ngoại mạng tháng này: ")
+    let a = parseInt(inputa);
+    let b = parseInt(inputb);
+    let c = a * 1580 + b * 1780;
+    let d = a * 1934 + b * 2284
+    let e = a * 2381 + b * 2543;
+    if (a >= 1 && a <= 10 && b >= 1 && b <= 10) {
+        alert("Tiền cước điện thoại tháng này: " + c);
+    } else if (a >= 11 && a <= 100 && b >= 11 && b <= 100) {
+        alert("cước điện thoại cho một hộ gia đình: " + d);
+    } else {
+        alert("cước điện thoại cho một hộ gia đình: " + e);
+    }
+</script>
+
+</html>

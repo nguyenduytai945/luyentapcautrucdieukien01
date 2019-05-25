@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bài tập5</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    var inputa;
+    var inputb;
+    var inputc;
+
+    inputa = prompt("Nhập điểm bài kiểm tra ");
+    inputb = prompt("Nhập điểm thi giữa kÌ ");
+    inputc = prompt("Nhập điểm thi cuối kì");
+
+    var a = parseInt(inputa);
+    var b = parseInt(inputb);
+    var c = parseInt(inputc);
+    var d = (a + b + c) / 3;
+    if (d >= 8 && d <= 10) {
+        alert("Học lực của bạn là giỏi");
+    } else if (d >= 6.5 && d <= 7.5) {
+        alert('Học lực của bạn là khá');
+
+    } else if (d >= 5.5 && d <= 6.4) {
+        alert("Học lực của bạn là trung bình");
+
+    } else {
+        alert("Học lực của bạn là yếu");
+    }
+</script>
+
+</html>

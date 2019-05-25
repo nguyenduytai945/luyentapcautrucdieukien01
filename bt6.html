@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bài tập6</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    var inputa;
+    inputa = prompt("Nhập doanh thu bán hàng tháng này(đồng): ");
+    var a = parseInt(inputa);
+    var b = a / 100 * 10;
+    var c = a / 100 * 15;
+    var d = a / 100 * 20;
+    if (a >= 1 && d <= 1000000) {
+        alert("Hoa hồng của nhân viên tháng này là: " + b);
+    } else if (a >= 1000001 && d <= 10000000) {
+        alert("Hoa hồng của nhân viên tháng này là: " + c);
+
+    } else {
+        alert("Hoa hồng của nhân viên tháng này là: " + d);
+    }
+</script>
+
+</html>
